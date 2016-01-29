@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                        Therefore, we create this pod to track the official Tencent Open API SDK.
                        DESC
   s.homepage         = "https://github.com/iException/BXTencentOpenAPI"
-  s.license          = { :type => 'Copyright', :text => 'Copyright (c) 2014 - 2016 Tencent Inc. All rights reserved.'}
+  s.license          = { :type => 'Copyright', :file => 'LICENSE' }
   s.author           = { "Yiming Tang" => "yimingnju@gmail.com" }
   s.source           = { :git => "https://github.com/iException/BXTencentOpenAPI.git", :tag => "v#{s.version.to_s}" }
   s.social_media_url = 'https://twitter.com/yiming_t'
