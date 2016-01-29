@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		D62C22E98C0A0A3A5758E41A /* Pods_BXTencentOpenAPI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB25452334490F902FF79B0 /* Pods_BXTencentOpenAPI_Tests.framework */; };
+		F13BF4C31C5B466E001D2304 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13BF4C21C5B466E001D2304 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		93E7A0350996B832B38383B9 /* Pods-BXTencentOpenAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXTencentOpenAPI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BXTencentOpenAPI_Example/Pods-BXTencentOpenAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B3DFCED37D1F7825A23A24C6 /* Pods-BXTencentOpenAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXTencentOpenAPI_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BXTencentOpenAPI_Tests/Pods-BXTencentOpenAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DFB25452334490F902FF79B0 /* Pods_BXTencentOpenAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXTencentOpenAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13BF4C21C5B466E001D2304 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		F28DDA304DC7E5B96A172D6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,6 +136,7 @@
 				6003F5A6195388D20070C39A /* BXViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				F13BF4C21C5B466E001D2304 /* Launch Screen.storyboard */,
 			);
 			name = "Example for BXTencentOpenAPI";
 			path = BXTencentOpenAPI;
@@ -273,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13BF4C31C5B466E001D2304 /* Launch Screen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
