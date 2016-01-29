@@ -11,6 +11,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BXTencentOpenAPI: 1784cc104531c15cbd94959a3b6541394b089bc2
+  BXTencentOpenAPI: 96d941aacfde20adb3ebac6460cbbbea647ff08d
 
 COCOAPODS: 0.39.0
