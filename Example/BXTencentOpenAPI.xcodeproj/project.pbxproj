@@ -21,7 +21,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		D62C22E98C0A0A3A5758E41A /* Pods_BXTencentOpenAPI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB25452334490F902FF79B0 /* Pods_BXTencentOpenAPI_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +59,6 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6AFE50AE21A0AFDA09016649 /* Pods-BXTencentOpenAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXTencentOpenAPI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BXTencentOpenAPI_Tests/Pods-BXTencentOpenAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E4DA1B9455755BD33C7339F /* Pods_BXTencentOpenAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXTencentOpenAPI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		93E7A0350996B832B38383B9 /* Pods-BXTencentOpenAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXTencentOpenAPI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BXTencentOpenAPI_Example/Pods-BXTencentOpenAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B3DFCED37D1F7825A23A24C6 /* Pods-BXTencentOpenAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXTencentOpenAPI_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BXTencentOpenAPI_Tests/Pods-BXTencentOpenAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DFB25452334490F902FF79B0 /* Pods_BXTencentOpenAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXTencentOpenAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,7 +130,6 @@
 			children = (
 				6003F59C195388D20070C39A /* BXAppDelegate.h */,
 				6003F59D195388D20070C39A /* BXAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* BXViewController.h */,
 				6003F5A6195388D20070C39A /* BXViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -276,7 +273,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);

@@ -1,15 +1,22 @@
 # BXTencentOpenAPI
 
-[![CI Status](http://img.shields.io/travis/Yiming Tang/BXTencentOpenAPI.svg?style=flat)](https://travis-ci.org/Yiming Tang/BXTencentOpenAPI)
 [![Version](https://img.shields.io/cocoapods/v/BXTencentOpenAPI.svg?style=flat)](http://cocoapods.org/pods/BXTencentOpenAPI)
 [![License](https://img.shields.io/cocoapods/l/BXTencentOpenAPI.svg?style=flat)](http://cocoapods.org/pods/BXTencentOpenAPI)
 [![Platform](https://img.shields.io/cocoapods/p/BXTencentOpenAPI.svg?style=flat)](http://cocoapods.org/pods/BXTencentOpenAPI)
+
+This is a mirror repository for the official [Tencent Open API iOS SDK](http://wiki.open.qq.com/).
+
 
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+
 ## Requirements
+
+* iOS 7.0 and later
+* ARC
+
 
 ## Installation
 
@@ -20,10 +27,5 @@ it, simply add the following line to your Podfile:
 pod "BXTencentOpenAPI"
 ```
 
-## Author
+Follow the [guide](http://wiki.open.qq.com/wiki/IOS_API调用说明) provided by Tencent.
 
-Yiming Tang, yimingnju@gmail.com
-
-## License
-
-BXTencentOpenAPI is available under the MIT license. See the LICENSE file for more info.

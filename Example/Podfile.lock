@@ -1,0 +1,16 @@
+PODS:
+  - BXTencentOpenAPI (2.9.5):
+    - BXTencentOpenAPI/Basic (= 2.9.5)
+  - BXTencentOpenAPI/Basic (2.9.5)
+
+DEPENDENCIES:
+  - BXTencentOpenAPI (from `../`)
+
+EXTERNAL SOURCES:
+  BXTencentOpenAPI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BXTencentOpenAPI: 1784cc104531c15cbd94959a3b6541394b089bc2
+
+COCOAPODS: 0.39.0
