@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49379585B1B15E716285E9C0 /* Pods_BXTencentOpenAPI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4DA1B9455755BD33C7339F /* Pods_BXTencentOpenAPI_Example.framework */; };
+		352B947778E9983DBF3409E8 /* Pods_BXTencentOpenAPI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB69BAD7B2D75338C61525F3 /* Pods_BXTencentOpenAPI_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,7 +21,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		D62C22E98C0A0A3A5758E41A /* Pods_BXTencentOpenAPI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB25452334490F902FF79B0 /* Pods_BXTencentOpenAPI_Tests.framework */; };
+		7A1CF3A76D57EA9BE1A86991 /* Pods_BXTencentOpenAPI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E91670DFDD2ECD0231EEB3 /* Pods_BXTencentOpenAPI_Example.framework */; };
 		F13BF4C31C5B466E001D2304 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13BF4C21C5B466E001D2304 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -37,8 +37,8 @@
 
 /* Begin PBXFileReference section */
 		019B735B71C798B6500586E1 /* BXTencentOpenAPI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BXTencentOpenAPI.podspec; path = ../BXTencentOpenAPI.podspec; sourceTree = "<group>"; };
+		32BBE14A9DD727389BC73EBB /* Pods-BXTencentOpenAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXTencentOpenAPI_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BXTencentOpenAPI_Example/Pods-BXTencentOpenAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		33957E6698E7BCC5BF7E60DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		48F6A784C6E8D5624C110B73 /* Pods-BXTencentOpenAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXTencentOpenAPI_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BXTencentOpenAPI_Example/Pods-BXTencentOpenAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BXTencentOpenAPI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BXTencentOpenAPI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,13 +58,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6AFE50AE21A0AFDA09016649 /* Pods-BXTencentOpenAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXTencentOpenAPI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BXTencentOpenAPI_Tests/Pods-BXTencentOpenAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7E4DA1B9455755BD33C7339F /* Pods_BXTencentOpenAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXTencentOpenAPI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93E7A0350996B832B38383B9 /* Pods-BXTencentOpenAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXTencentOpenAPI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BXTencentOpenAPI_Example/Pods-BXTencentOpenAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B3DFCED37D1F7825A23A24C6 /* Pods-BXTencentOpenAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXTencentOpenAPI_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BXTencentOpenAPI_Tests/Pods-BXTencentOpenAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DFB25452334490F902FF79B0 /* Pods_BXTencentOpenAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXTencentOpenAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C170359856406DA96C88C5F /* Pods-BXTencentOpenAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXTencentOpenAPI_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BXTencentOpenAPI_Tests/Pods-BXTencentOpenAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9ED791466602B33B301C055C /* Pods-BXTencentOpenAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXTencentOpenAPI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BXTencentOpenAPI_Tests/Pods-BXTencentOpenAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4E91670DFDD2ECD0231EEB3 /* Pods_BXTencentOpenAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXTencentOpenAPI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB69BAD7B2D75338C61525F3 /* Pods_BXTencentOpenAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXTencentOpenAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13BF4C21C5B466E001D2304 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		F28DDA304DC7E5B96A172D6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FAC00B9967755D6F3CC209FB /* Pods-BXTencentOpenAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXTencentOpenAPI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BXTencentOpenAPI_Example/Pods-BXTencentOpenAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				49379585B1B15E716285E9C0 /* Pods_BXTencentOpenAPI_Example.framework in Frameworks */,
+				7A1CF3A76D57EA9BE1A86991 /* Pods_BXTencentOpenAPI_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				D62C22E98C0A0A3A5758E41A /* Pods_BXTencentOpenAPI_Tests.framework in Frameworks */,
+				352B947778E9983DBF3409E8 /* Pods_BXTencentOpenAPI_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				8DD540682F24979E6FBB598A /* Pods */,
+				658676760DFA91872ABED781 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				7E4DA1B9455755BD33C7339F /* Pods_BXTencentOpenAPI_Example.framework */,
-				DFB25452334490F902FF79B0 /* Pods_BXTencentOpenAPI_Tests.framework */,
+				A4E91670DFDD2ECD0231EEB3 /* Pods_BXTencentOpenAPI_Example.framework */,
+				EB69BAD7B2D75338C61525F3 /* Pods_BXTencentOpenAPI_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,13 +182,13 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		8DD540682F24979E6FBB598A /* Pods */ = {
+		658676760DFA91872ABED781 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				93E7A0350996B832B38383B9 /* Pods-BXTencentOpenAPI_Example.debug.xcconfig */,
-				48F6A784C6E8D5624C110B73 /* Pods-BXTencentOpenAPI_Example.release.xcconfig */,
-				6AFE50AE21A0AFDA09016649 /* Pods-BXTencentOpenAPI_Tests.debug.xcconfig */,
-				B3DFCED37D1F7825A23A24C6 /* Pods-BXTencentOpenAPI_Tests.release.xcconfig */,
+				FAC00B9967755D6F3CC209FB /* Pods-BXTencentOpenAPI_Example.debug.xcconfig */,
+				32BBE14A9DD727389BC73EBB /* Pods-BXTencentOpenAPI_Example.release.xcconfig */,
+				9ED791466602B33B301C055C /* Pods-BXTencentOpenAPI_Tests.debug.xcconfig */,
+				7C170359856406DA96C88C5F /* Pods-BXTencentOpenAPI_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -200,12 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BXTencentOpenAPI_Example" */;
 			buildPhases = (
-				4C12DB45A16F41DC1A778E87 /* Check Pods Manifest.lock */,
+				EE874EC96C0284DD22042C5F /* 📦 Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				A7336DBF0592A9EE8E71EA92 /* Embed Pods Frameworks */,
-				AD6BE7C92644C1B16E7F0427 /* Copy Pods Resources */,
+				7174A939D1576541A8BF6679 /* 📦 Embed Pods Frameworks */,
+				D5C1C16088A9553E439F2D45 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,12 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BXTencentOpenAPI_Tests" */;
 			buildPhases = (
-				9947844B9A4A743896815667 /* Check Pods Manifest.lock */,
+				3DDAEEC8A13513DB53734899 /* 📦 Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				2F4926B2536D5FFE4C6E7392 /* Embed Pods Frameworks */,
-				51F7FF5BC762E47E2BD3C6E6 /* Copy Pods Resources */,
+				F929B37235F16709F66E3831 /* 📦 Embed Pods Frameworks */,
+				EDC58BFE01FA38E3825CE319 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,29 +293,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2F4926B2536D5FFE4C6E7392 /* Embed Pods Frameworks */ = {
+		3DDAEEC8A13513DB53734899 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXTencentOpenAPI_Tests/Pods-BXTencentOpenAPI_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4C12DB45A16F41DC1A778E87 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,44 +308,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		51F7FF5BC762E47E2BD3C6E6 /* Copy Pods Resources */ = {
+		7174A939D1576541A8BF6679 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXTencentOpenAPI_Tests/Pods-BXTencentOpenAPI_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9947844B9A4A743896815667 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		A7336DBF0592A9EE8E71EA92 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,19 +323,64 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXTencentOpenAPI_Example/Pods-BXTencentOpenAPI_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AD6BE7C92644C1B16E7F0427 /* Copy Pods Resources */ = {
+		D5C1C16088A9553E439F2D45 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXTencentOpenAPI_Example/Pods-BXTencentOpenAPI_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC58BFE01FA38E3825CE319 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXTencentOpenAPI_Tests/Pods-BXTencentOpenAPI_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE874EC96C0284DD22042C5F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F929B37235F16709F66E3831 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXTencentOpenAPI_Tests/Pods-BXTencentOpenAPI_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -509,7 +509,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93E7A0350996B832B38383B9 /* Pods-BXTencentOpenAPI_Example.debug.xcconfig */;
+			baseConfigurationReference = FAC00B9967755D6F3CC209FB /* Pods-BXTencentOpenAPI_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -525,7 +525,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48F6A784C6E8D5624C110B73 /* Pods-BXTencentOpenAPI_Example.release.xcconfig */;
+			baseConfigurationReference = 32BBE14A9DD727389BC73EBB /* Pods-BXTencentOpenAPI_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -541,7 +541,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AFE50AE21A0AFDA09016649 /* Pods-BXTencentOpenAPI_Tests.debug.xcconfig */;
+			baseConfigurationReference = 9ED791466602B33B301C055C /* Pods-BXTencentOpenAPI_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -565,7 +565,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3DFCED37D1F7825A23A24C6 /* Pods-BXTencentOpenAPI_Tests.release.xcconfig */;
+			baseConfigurationReference = 7C170359856406DA96C88C5F /* Pods-BXTencentOpenAPI_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

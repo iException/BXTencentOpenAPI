@@ -1,12 +1,11 @@
-source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'BXTencentOpenAPI_Example', :exclusive => true do
-  pod 'BXTencentOpenAPI', :path => '../'
-end
-
-target 'BXTencentOpenAPI_Tests', :exclusive => true do
+target 'BXTencentOpenAPI_Example' do
   pod 'BXTencentOpenAPI', :path => '../'
 
-  
+  target 'BXTencentOpenAPI_Tests' do
+    inherit! :search_paths
+  end
 end
+
+
