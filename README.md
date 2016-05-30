@@ -1,5 +1,6 @@
 # BXTencentOpenAPI
 
+[![Build Status](https://travis-ci.org/iException/BXTencentOpenAPI.svg?branch=master)](https://travis-ci.org/iException/BXTencentOpenAPI)
 [![Version](https://img.shields.io/cocoapods/v/BXTencentOpenAPI.svg?style=flat)](http://cocoapods.org/pods/BXTencentOpenAPI)
 [![License](https://img.shields.io/cocoapods/l/BXTencentOpenAPI.svg?style=flat)](http://cocoapods.org/pods/BXTencentOpenAPI)
 [![Platform](https://img.shields.io/cocoapods/p/BXTencentOpenAPI.svg?style=flat)](http://cocoapods.org/pods/BXTencentOpenAPI)
