@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BXTencentOpenAPI'
-  s.version          = '3.1.0'
+  s.version          = '3.1.3'
   s.summary          = 'Tencent Open API library for iOS to access Tencent platform.'
   s.description      = <<-DESC
                        It's a shame that Tencent dev team doesn't have an official pod for their Open API library.
