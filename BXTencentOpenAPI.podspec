@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BXTencentOpenAPI'
-  s.version          = '3.1.3'
+  s.version          = '3.3.0'
   s.summary          = 'Tencent Open API library for iOS to access Tencent platform.'
   s.description      = <<-DESC
                        It's a shame that Tencent dev team doesn't have an official pod for their Open API library.
@@ -15,15 +15,5 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
   s.frameworks       = 'Security', 'SystemConfiguration', 'CoreTelephony', 'CoreGraphics'
   s.libraries        = 'iconv', 'z', 'c++', 'sqlite3'
-
-  s.subspec 'Basic' do |ss|
-    ss.vendored_frameworks = 'TencentOpenAPI/Basic/TencentOpenAPI.framework'
-  end
-
-  s.subspec 'Advanced' do |ss|
-    ss.vendored_frameworks = 'TencentOpenAPI/Advanced/TencentOpenAPI.framework'
-    ss.resource     = 'TencentOpenAPI/Advanced/TencentOpenApi_IOS_Bundle.bundle'
-  end
-
-  s.default_subspec = 'Basic'
+  s.vendored_frameworks = 'TencentOpenAPI/TencentOpenAPI.framework'
 end
