@@ -1,9 +1,9 @@
-osx_image: xcode7.3
+osx_image: xcode9
 language: objective-c
 cache: cocoapods
 podfile: Example/Podfile
 before_install:
   - gem install cocoapods xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-  - set -o pipefail && xcodebuild build -workspace Example/BXTencentOpenAPI.xcworkspace -scheme BXTencentOpenAPI-Example -sdk iphonesimulator -destination "platform=iOS Simulator,OS=9.3,name=iPhone 6s" ONLY_ACTIVE_ARCH=YES | xcpretty
+  - set -o pipefail && xcodebuild build -workspace Example/BXTencentOpenAPI.xcworkspace -scheme BXTencentOpenAPI-Example -sdk iphonesimulator -destination "platform=iOS Simulator,OS=11.0,name=iPhone2017-A" ONLY_ACTIVE_ARCH=YES | xcpretty
   - pod lib lint
